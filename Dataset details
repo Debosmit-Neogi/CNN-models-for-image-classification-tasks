@@ -1,4 +1,4 @@
-This dataset contains images required for image classification task. The dataset is divided into subdirectories containing train, test and validation data along 
+This dataset contains images required for image classification task. The dataset (https://www.kaggle.com/debosmitneogi/image-detection) is divided into subdirectories containing train, test and validation data along 
 with proper annotaitons.
 
 Directory structure is as follows:
@@ -23,7 +23,7 @@ image_detection\
                                .
                                .
                                .
-                        \image449.jpg
+                       \image449.jpg
                   \boxes.txt
                         \box1
                         \box2
@@ -32,6 +32,17 @@ image_detection\
                           .
                           .
                         \box449
-      
+    \val
+            \images
+                  \val0.jpg
+                  \val1.jpg
+                  \val2.jpg
+                       .
+                       .
+                       .
+                  \val9999.jpg
+             \val_annotations.txt
+   \wnids.txt
+   \words.txt
 
 
