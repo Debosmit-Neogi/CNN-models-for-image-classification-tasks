@@ -1,4 +1,5 @@
-This dataset contains images required for image classification task. The dataset is divided into subdirectories containing train, test and validation data along with proper annotaitons.
+This dataset contains images required for image classification task. The dataset is divided into subdirectories containing train, test and validation data along 
+with proper annotaitons.
 
 Directory structure is as follows:
 
@@ -13,6 +14,24 @@ image_detection\
                 .
            \test9999.jpeg
       \train
+            \directory_1
+                  \images
+                        \image0.jpg
+                        \image1.jpg
+                        \image2.jpg
+                        \image3.jpg
+                               .
+                               .
+                               .
+                        \image449.jpg
+                  \boxes.txt
+                        \box1
+                        \box2
+                        \box3
+                          .
+                          .
+                          .
+                        \box449
       
 
 
